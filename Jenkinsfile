@@ -43,7 +43,7 @@ node{
     stage('sendEmailNotification'){
         emailext body: '''Build is over !!
 
-       regards 
+       regards
 
        ravi tech''', subject: 'Build is over !!', to: 'nareshdevops9542@gmail.com'
     }
